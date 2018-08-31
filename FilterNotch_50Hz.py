@@ -9,7 +9,7 @@ import numpy as np
 from scipy import signal
 from scipy.fftpack import fft
 import matplotlib.pyplot as plt
-
+#Note: only te following statement is changed
 N=1000
 fs=  1000 # Sample frequency (Hz)
 Ts= 1.0/float(fs) #Sampling interval (sec)
